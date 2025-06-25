@@ -1,0 +1,10 @@
+^C:\USERS\MISOH\DOCUMENTS\PROJECTS\PERSONAL\ANDREJ_RIZZ\BUILD\CMAKEFILES\E0B275175716E17CA686409996CFA5A9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/misoh/Documents/Projects/Personal/andrej_rizz -BC:/Users/misoh/Documents/Projects/Personal/andrej_rizz/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/misoh/Documents/Projects/Personal/andrej_rizz/build/andrej_rizz.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
