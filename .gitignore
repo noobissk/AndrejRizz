@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/build
+build/.cmake/api/v1/reply/cmakeFiles-v1-357b4873e5910113b2ab.json
+build/.cmake/api/v1/reply/index-2025-06-25T10-11-46-0364.json
